@@ -6,6 +6,13 @@ Go to pixabay.com, register an account and get your API key
 
 Add `PIXABAY_API_KEY=<your_api_key>` to `.env`
 
-`Pixabay::get($options)`
+```
+$images = Pixabay::get([
+  'q' => 'animals+dancing',
+  'min_width' => 600,
+  'min_height' => 600,
+  'type' => 'photo',
+]);
+```
 
-Refer to [https://pixabay.com/api/docs/](Pixabay's API docs) for query options.
+Refer to [Pixabay's API docs](https://pixabay.com/api/docs/) for query options.
