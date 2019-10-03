@@ -1,0 +1,20 @@
+{
+    "name": "pjmil/laravel-pixabay",
+    "description": "Laravel facade for accessing the Pixabay API",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Paul Millar",
+            "email": "pjmil116@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-0": {
+            "Pixabay": "src/"
+        }
+    }
+}
