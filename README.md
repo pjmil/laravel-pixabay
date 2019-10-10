@@ -7,11 +7,15 @@ Go to pixabay.com, register an account and get your API key
 Add `PIXABAY_API_KEY=<your_api_key>` to `.env`
 
 ```
-$images = Pixabay::get([
+$images = Pixabay::image([
   'q' => 'animals+dancing',
   'min_width' => 600,
   'min_height' => 600,
   'type' => 'photo',
+]);
+
+$videos = Pixabay::video([
+  'q' => 'animals+dancing',
 ]);
 ```
 
