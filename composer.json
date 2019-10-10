@@ -19,12 +19,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Pjmil\\Pixabay\\": "src/" 
-        }
-    },
-    "autoload-dev": {
-        "psr-4": { 
-            "Pjmil\\Pixabay\\tests\\": "tests/" 
+            "Pjmil\\": "src/" 
         }
     },
     "config": {
