@@ -1,5 +1,7 @@
 <?php
 
+namespace Pjmil\Pixabay;
+
 use GuzzleHttp\Client;
 
 class Pixabay 
