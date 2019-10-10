@@ -1,7 +1,7 @@
 {
     "name": "pjmil/laravel-pixabay",
     "description": "Laravel facade for accessing the Pixabay API",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
